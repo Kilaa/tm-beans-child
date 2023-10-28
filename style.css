@@ -9,3 +9,26 @@ Text Domain: tm-beans
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
+
+nav.tm-primary-menu ul li.menu-item a  {
+
+color:red !important;
+}
+
+nav.tm-primary-menu ul li.menu-item:last-child a {
+
+background-color: blue;
+
+}
+
+
+
+nav.tm-primary-menu {
+
+
+width: 100%;
+background-color: white;
+display: flex;
+flex-direction: column;
+align-items: end;
+}
