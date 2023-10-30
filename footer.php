@@ -12,3 +12,7 @@
  */
 
 beans_load_default_template( __FILE__ );
+?>
+<footer>
+        <h1>Mentions légales</h1>
+</footer>

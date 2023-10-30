@@ -10,17 +10,44 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 
+.tm-header {
+
+padding: 0px;
+}
+
+
 nav.tm-primary-menu ul li.menu-item a  {
 
-color:red !important;
+color:black;
 }
 
 nav.tm-primary-menu ul li.menu-item:last-child a {
 
-background-color: blue;
+background-color: #DC9F96;
+margin: 0px;
+padding-right: 100%;
+color: white;
 
 }
 
+img.tm-logo {
+    
+    width: 20%;
+}
+
+.uk-navbar-nav {
+
+    display: flex;
+    justify-content: space-between;
+    width: max-content;
+}
+.uk-container-center {
+    
+    padding-right: 0px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
 
 
 nav.tm-primary-menu {
@@ -31,4 +58,22 @@ background-color: white;
 display: flex;
 flex-direction: column;
 align-items: end;
+}
+
+footer h1 {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+ /* Centrage titre home */
+
+.div.uk-container.uk-container-center {
+    justify-content: center;
+}
+
+.uk-block {
+
+    padding: 0px;
+
 }
