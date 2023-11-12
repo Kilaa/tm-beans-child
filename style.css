@@ -10,7 +10,50 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 
+
+/* couleur background beige: #ECE2DA; */
+
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
+
+body * { 
+    
+    font-family: 'Syne', sans-serif;
+}
+
+/* Premier titre page home */
+.wp-block-heading.has-text-align-center {
+    color:#3B8E46;
+    padding-top: 80px;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.wp-block-group.is-vertical.is-content-justification-center.is-layout-flex.wp-container-3.wp-block-group-is-layout-flex {
+    
+    background-color: #ECE2DA;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin-top: 40px;
+}
+
+h2.wp-block-heading {
+    color: #3B8E46;
+}
+
+h1.wp-block-heading {
+    color: #D2776A;
+    font-size: 30px;
+    font-weight: 800;
+    
+    
+}
+
+div.wp-block-columns.is-layout-flex.wp-container-19.wp-block-columns-is-layout-flex {
+    margin-top: 80px;
+}
+
 .tm-header {
+
 
 padding: 0px;
 }
@@ -47,8 +90,15 @@ img.tm-logo {
     background-color: white;
     display: flex;
     justify-content: center;
+    
+    
 }
 
+/* Canette home */
+img.wp-image-148 {
+    margin-bottom: 40px;
+    margin-top: 35px;
+}
 
 nav.tm-primary-menu {
 
@@ -77,3 +127,75 @@ footer h1 {
     padding: 0px;
 
 }
+
+.uk-margin-small-bottom {
+
+    display: none;
+}
+
+/*  centrage des vignetttes de fruits home */
+.wp-block-column  {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+
+}
+
+.wp-block-group__inner-container {
+
+    background-color: #ECE2DA;
+}
+
+.wp-block-group.is-vertical.is-content-justification-center.is-layout-flex.wp-container-2.wp-block-group-is-layout-flex {
+    background-image: url(images/Rect.png);
+    background-color: #ECE2DA;
+    background-size:cover;
+    padding-top: 80px;
+}
+
+.wp-block-heading.Titre-energie {
+    margin-bottom: 15px;
+
+}
+.uk-panel-box {
+    padding: 0;
+    margin: 0;
+}
+
+.tm-primary.uk-width-medium-4-4.uk-row-first {
+    padding: 0;
+}
+
+.wp-block-buttons.is-content-justification-center.is-layout-flex.wp-container-13.wp-block-buttons-is-layout-flex {
+    margin-top: -25px;
+    background-color: #ECE2DA;
+}
+
+.wp-block-button.is-style-fill {
+    margin: 20px;
+    margin-bottom: 35px;
+}
+
+.wp-block-button__link {
+    border-radius: 2px;
+    background-color: #D2776A;
+}
+
+footer h1 {
+
+    font-size: 16px;
+    font-weight: 400;
+}
+
+img.wp-image-124 {
+    width: 1440px;
+    margin-bottom: -15px;
+}
+
+/* Page COMMANDER */
+
+.uk-breadcrumb.uk-width-1-1 {
+    display: none;
+}
+

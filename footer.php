@@ -11,7 +11,7 @@
  * @package Beans\Framework
  */
 
-beans_load_default_template( __FILE__ );
+beans_load_default_template( __FILE__ ); 
 ?>
 <footer>
         <h1>Mentions légales</h1>
