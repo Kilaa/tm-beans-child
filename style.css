@@ -199,3 +199,52 @@ img.wp-image-124 {
     display: none;
 }
 
+.wp-block-column.Bloc-fruits-commander.is-layout-flow.wp-block-column-is-layout-flow {
+    justify-content: start;
+}
+
+.wp-block-heading.titre-page-commander {
+    color: white;
+}
+
+.wp-block-gallery.has-nested-images.columns-default.is-cropped.vignettes-commander.wp-block-gallery-1.is-layout-flex.wp-block-gallery-is-layout-flex {
+    flex-wrap: nowrap;
+}
+
+.form-quantity {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.page-id-22.h1.uk-article-title {
+    color: white;
+}
+
+.quantite {
+    width: 50px;
+    border-radius: 0px;
+}
+
+.wp-block-group.form-quantity.is-content-justification-space-between.is-nowrap.is-layout-flex.wp-container-5.wp-block-group-is-layout-flex {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.input.quantite {
+    border-radius: 0px;
+}
+
+.uk-article.uk-panel-box.post-22.page.type-page.status-publish.hentry {
+    background-color: #3B8E46;
+}
+
+div.form-group {
+    display: flex;
+    background-color: #3B8E46;
+}
+
+.border-middle {
+    margin: 40px;
+}
+
