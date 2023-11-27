@@ -15,6 +15,18 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 @import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
 
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
 body * { 
     
     font-family: 'Syne', sans-serif;
@@ -87,7 +99,10 @@ img.tm-logo {
 .uk-container-center {
     
     padding-right: 0px;
+    /*
     background-color: white;
+
+    */
     display: flex;
     justify-content: center;
     
@@ -128,19 +143,25 @@ footer h1 {
 
 }
 
+.page-id-22 .tm-main {
+    background-color: #3B8E46;
+}
+
+
 .uk-margin-small-bottom {
 
     display: none;
 }
 
 /*  centrage des vignetttes de fruits home */
-.wp-block-column  {
+.wp-block-image.size-full.is-resized.vignettes-fruits-commander  {
 
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center
+    flex-direction: column;
+    align-items: center;
 
 }
+
 
 .wp-block-group__inner-container {
 
@@ -219,11 +240,17 @@ img.wp-image-124 {
 
 .page-id-22.h1.uk-article-title {
     color: white;
+
+}
+
+h1.uk-article-title {
+    display: none;
 }
 
 .quantite {
-    width: 50px;
     border-radius: 0px;
+    width: 35PX;
+    height: 50PX;
 }
 
 .wp-block-group.form-quantity.is-content-justification-space-between.is-nowrap.is-layout-flex.wp-container-5.wp-block-group-is-layout-flex {
@@ -231,8 +258,14 @@ img.wp-image-124 {
     margin-right: 70px;
 }
 
-.input.quantite {
-    border-radius: 0px;
+
+.uk-grid {
+    background-color: #3B8E46;
+}
+
+div.wp-block-columns.page-commander.is-layout-flex.wp-container-9.wp-block-columns-is-layout-flex {
+    background-color: #3B8E46;
+    max-width: 800px;
 }
 
 .uk-article.uk-panel-box.post-22.page.type-page.status-publish.hentry {
@@ -242,9 +275,135 @@ img.wp-image-124 {
 div.form-group {
     display: flex;
     background-color: #3B8E46;
+    color: white;
 }
 
 .border-middle {
     margin: 40px;
 }
 
+div.form-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ECE2DA;
+    background-image: url(images/Feuille-formulaire.png);
+    background-repeat: no-repeat;
+    background-position: 30% 97%;
+    color: black;
+    font-size: 16px;
+}
+
+.has-text-align-center.introduction-rencontrer {
+    background-color: #ECE2DA;
+    padding-bottom: 50px;
+    width: 700px;
+}
+
+div#h1-nous {
+    background-color: #ECE2DA;
+    margin-bottom: -20px;
+    display: none;
+}
+
+.wp-block-column.galerie-vignette-commander.is-layout-flow.wp-block-column-is-layout-flow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.ligne-une {
+    color: white;
+    margin-bottom: 45px;
+}
+
+hr.border-middle {
+    color: white;
+    border: 1px solid;
+    height: 250px;
+    margin-top: -1px;
+
+}
+
+div.bouton-groupe {
+    display: flex;
+    justify-content: center;
+    background-color: #3B8E46;
+}
+
+button.mon-bouton {
+    border-radius: 2px;
+    background-color: #E0B9B4;
+    padding: 12px 22px;
+    border: none;
+    color: white;
+}
+
+h3.titre-formcommander {
+    color: white;
+    font-weight: 700;
+    font-size: 20px;;
+}
+
+p.input.quantite {
+    border-radius: 0px;
+}
+
+/* page équipe */
+
+figure.aligncenter.size-full {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.vignettes-equipe {
+    
+    background: white;
+}
+
+div.wp-block-group.bloc-titreequipe.has-white-background-color.has-background.is-vertical.is-content-justification-center.is-nowrap.is-layout-flex.wp-container-1.wp-block-group-is-layout-flex {
+    background-image: url(images/Incurve.png);
+    background-color: white;
+    background-size:cover;
+    padding-top: 80px;
+
+}
+
+.bloc-nousrencontrer {
+    background-color:#ECE2DA;
+    margin-top: -15px;
+}
+
+.bouton-contact {
+    border-radius: 2px;
+    background-color: #E0B9B4;
+    padding: 12px 38px;
+    border: none;
+    color: white;
+}
+
+.Canette-footernous {
+    margin-bottom: 0px;
+    background-color: #ECE2DA;
+    margin-top: 0px;
+}
+
+.title-contact {
+    font-size: 24px;
+    margin-top: 30px;
+    font-weight: 700;
+    color: black;
+}
+
+h2.wp-block-heading.has-text-align-center.titre-equipe {
+    
+    font-size: 28px;
+    padding-top: 20px;
+}
+
+figcaption.wp-element-caption {
+    text-align: center;
+}
