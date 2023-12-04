@@ -45,7 +45,7 @@ body * {
     background-color: #ECE2DA;
     padding-top: 40px;
     padding-bottom: 30px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 h2.wp-block-heading {
@@ -168,12 +168,21 @@ footer h1 {
     background-color: #ECE2DA;
 }
 
-.wp-block-group.is-vertical.is-content-justification-center.is-layout-flex.wp-container-2.wp-block-group-is-layout-flex {
-    background-image: url(images/Rect.png);
+div.wp-block-group.bloc-titreequipe.is-vertical.is-content-justification-center.is-nowrap.is-layout-flex.wp-container-2.wp-block-group-is-layout-flex {
+    background-image: url(images/Incurve.png);
     background-color: #ECE2DA;
     background-size:cover;
     padding-top: 80px;
 }
+
+.bloc-titreequipe {
+
+    background-image: url(images/Incurve.png);
+    background-color: #ECE2DA;
+    background-size:cover;
+    padding-top: 80px;
+}
+
 
 .wp-block-heading.Titre-energie {
     margin-bottom: 15px;
@@ -364,9 +373,18 @@ figure.aligncenter.size-full {
     background: white;
 }
 
-div.wp-block-group.bloc-titreequipe.has-white-background-color.has-background.is-vertical.is-content-justification-center.is-nowrap.is-layout-flex.wp-container-1.wp-block-group-is-layout-flex {
-    background-image: url(images/Incurve.png);
-    background-color: white;
+.bloc-equipes {
+    margin-left: 193px;
+}
+
+figure.alignright.size-full {
+    position: relative;
+    top: 62px;
+}
+
+div.wp-block-group.bloc-plante.is-vertical.is-content-justification-center.is-layout-flex.wp-container-2.wp-block-group-is-layout-flex {
+    background-image: url(images/Rect.png);
+    background-color: #ECE2DA;
     background-size:cover;
     padding-top: 80px;
 
@@ -374,7 +392,21 @@ div.wp-block-group.bloc-titreequipe.has-white-background-color.has-background.is
 
 .bloc-nousrencontrer {
     background-color:#ECE2DA;
-    margin-top: -15px;
+    margin-top: 0px;
+    margin-bottom: -25px;
+}
+.bloc-nousrencontrer h2, .bloc-nousrencontrer p {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+.wp-block-image.size-full.feuille-nousrencontrer {
+    position: absolute;
+    width: 100px;
+    top: 120px;
 }
 
 .bouton-contact {
@@ -406,4 +438,164 @@ h2.wp-block-heading.has-text-align-center.titre-equipe {
 
 figcaption.wp-element-caption {
     text-align: center;
+}
+
+a.lien-mention {
+    color: black;
+}
+
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+
+ /* bloc nous-rencontrer */
+
+    
+}
+
+@media (max-width: 768px) {
+
+/*formulaire */
+.champs-formulaire {
+    width: 200px;
+    display: block;
+}
+
+/* feuille formulaire */
+div.form-contact {
+    background-position: -50% 98%;
+}
+
+/*feuille page equipe */
+figure.alignright.size-full {
+    position: relative;
+    top: 33px;
+}
+
+/* vignettes fruit commander */
+.wp-block-column.galerie-vignette-commander.is-layout-flow.wp-block-column-is-layout-flow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* titre Votre Commande page commander */
+
+.wp-block-heading.titre-page-commander {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* formulaire commande */
+div.form-group {
+    flex-direction: column;
+}
+
+.form-premiere {
+    margin: 20px;
+    width: 280px;
+}
+hr.border-middle {
+    height: 0px;
+}
+
+/*bloc equipes */
+.bloc-equipes {
+    margin-left: 0px;
+}
+
+/*Feuille page nous rencontrer */
+.wp-block-image.size-full.feuille-nousrencontrer {
+    width: 90px;
+    top: 80px;
+}
+
+/* bloc nous rencontrer */
+.bloc-nousrencontrer h2, .bloc-nousrencontrer p {
+    width: auto;
+}
+
+.has-text-align-center.introduction-rencontrer {
+
+    width: auto;
+}
+}
+
+@media (max-width: 320px) {
+
+/* background image bloc nous rencontrer */
+.bloc-titreequipe {   
+    background-size: cover;
+}
+
+/* bloc boisson énergisante premiere page */
+.wp-block-heading.has-text-align-center {
+    margin-top: -20px;
+}
+
+/* Canette footer nous rencontrer */ 
+.Canette-footernous {
+    margin-bottom: -20px;
+}
+
+/*formulaire */
+.champs-formulaire {
+    width: 200px;
+    display: block;
+}
+
+/* feuille formulaire */
+div.form-contact {
+    background-position: -50% 98%;
+}
+
+/* logo planty */ 
+img.tm-logo {
+    width: 50%;
+    height: 25%;
+}
+
+/* vignettes fruit commander */
+.wp-block-column.galerie-vignette-commander.is-layout-flow.wp-block-column-is-layout-flow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* titre Votre Commande page commander */
+
+.wp-block-heading.titre-page-commander {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* formulaire commande */
+div.form-group {
+    flex-direction: column;
+}
+
+.form-premiere {
+    margin: 20px;
+    width: 280px;
+}
+hr.border-middle {
+    height: 0px;
+}
+
+/*bloc equipes */
+.bloc-equipes {
+    margin-left: 0px;
+}
+
+/* feuille equipe */ 
+figure.alignright.size-full {
+    position: relative;
+    top: 33px;
+}
+
+/* bloc nous rencontrer */
+.bloc-nousrencontrer {
+    margin-top: -20px;
+}
+
+
 }

@@ -14,5 +14,5 @@
 beans_load_default_template( __FILE__ ); 
 ?>
 <footer>
-        <h1>Mentions légales</h1>
+        <h1><a href="http://planty.local/" class="lien-mention">Mentions légales</a></h1>
 </footer>
