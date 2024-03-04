@@ -45,7 +45,7 @@ body * {
     background-color: #ECE2DA;
     padding-top: 40px;
     padding-bottom: 30px;
-    margin-top: 20px;
+    margin-top: -25px;
 }
 
 h2.wp-block-heading {
@@ -80,7 +80,6 @@ nav.tm-primary-menu ul li.menu-item:last-child a {
 
 background-color: #DC9F96;
 margin: 0px;
-padding-right: 100%;
 color: white;
 
 }
@@ -387,6 +386,7 @@ div.wp-block-group.bloc-plante.is-vertical.is-content-justification-center.is-la
     background-color: #ECE2DA;
     background-size:cover;
     padding-top: 80px;
+    margin-bottom: 50px;
 
 }
 
