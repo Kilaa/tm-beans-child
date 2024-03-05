@@ -1,4 +1,5 @@
 /*
+
 Theme Name: tm-beans-child
 Description: Child Theme for the Beans Theme.
 Author: Michel
@@ -8,6 +9,7 @@ Version: 1.0.0
 Text Domain: tm-beans
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
 */
 
 
@@ -223,6 +225,26 @@ img.wp-image-124 {
 }
 
 /* Page COMMANDER */
+
+div.numbers {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.square {
+    width: 50px;
+}
+
+hr.bordertop {
+    border: solid 1px white;
+
+}
+
+#Form-contacter {
+    background-color: #3B8E46;
+}
+
 
 .uk-breadcrumb.uk-width-1-1 {
     display: none;
@@ -453,6 +475,14 @@ a.lien-mention {
 }
 
 @media (max-width: 768px) {
+
+div.numbers {
+    position: absolute;
+    top: 256px;
+    right: 152px;
+    flex-direction: column;
+    gap: 100px;
+    }
 
 /*formulaire */
 .champs-formulaire {
